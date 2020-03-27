@@ -68,7 +68,7 @@ DOWNLOADER_MIDDLEWARES = {
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
     # 'info.pipelines.InfoPipeline': 300,
-    # 'info.pipelines.FailPipeline': 300,
+    # 'info.pipelines.FailPipeline': 301,
     'info.pipelines.TestPipeline': 300,
 }
 

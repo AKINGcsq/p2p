@@ -25,7 +25,7 @@ class InfoPipeline(object):
 
 class FailPipeline(object):
     def __init__(self):
-        self.file = codecs.open('fid.json', 'a', encoding='utf-8')
+        self.file = codecs.open('fid.json', 'w', encoding='utf-8')
 
     def process_item(self, item, spider):
         if isinstance(item, FailIdItem):
@@ -48,11 +48,11 @@ class TestPipeline(object):
         if isinstance(item, FailIdItem):
             line = json.dumps(dict(item), ensure_ascii=False) + "\n"
             self.file2.write(line)
-            return item
+            # return item
         elif isinstance(item, InfoItem):
             line = json.dumps(dict(item), ensure_ascii=False) + "\n"
             self.file1.write(line)
-            return item
+            # return item
 
     def spider_closed(self, spider):
         self.file2.close()

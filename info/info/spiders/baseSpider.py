@@ -21,8 +21,7 @@ class BaseSpider(Spider):
     handle_httpstatus_list = [404, 503]  # the considered http error
     url = 'https://licai.p2peye.com/u'  # the url
     f = []  # the failed page number list
-
-
+    failed = FailIdItem()
 
     def start_requests(self):
         start_urls = ['https://licai.p2peye.com/u0/']
@@ -30,14 +29,14 @@ class BaseSpider(Spider):
 
     def parse(self, response):
         item = InfoItem()
-        failed = FailIdItem()
 
         if response.status != 200:
             self.f.append(self.count)
-            failed['fid'] = self.f
+            self.failed['fid'] = self.f
+        if (self.count == self.crawl_number) | (self.count % 100 == 0):
+            yield self.failed
 
-            yield failed
-        print(self.f)
+        # print(self.f)
         if response.status == 200:
 
             tzze = response.xpath('/html/body/div[6]/div/section/div[1]/div/div[2]/dl[1]/dd/text()').extract()[

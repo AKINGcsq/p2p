@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fbfc78c8-c532-4090-b5fb-4426fcc2b10a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info/fid.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/info/info.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/info/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/info/info/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/info/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/info/info/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/info/info/spiders/baseSpider.py" beforeDir="false" afterPath="$PROJECT_DIR$/info/info/spiders/baseSpider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,18 +25,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1XbbXcElDLWQlJvcDE9dtC48nMc" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/info" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -127,12 +134,36 @@
       <workItem from="1585281206943" duration="7262000" />
       <workItem from="1585332803013" duration="56000" />
       <workItem from="1585332875858" duration="588000" />
-      <workItem from="1585333866986" duration="796000" />
+      <workItem from="1585333866986" duration="2581000" />
     </task>
+    <task id="LOCAL-00001" summary="commit test">
+      <created>1585334737635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1585334737636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit test" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit test" />
   </component>
   <component name="WindowStateProjectService">
     <state x="223" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581323226486">
@@ -143,6 +174,10 @@
       <screen x="0" y="0" width="1440" height="870" />
     </state>
     <state x="450" y="181" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/-1920.0.1536.840/0.0.1440.870@0.0.1440.870" timestamp="1581756086730" />
+    <state x="372" y="11" key="CommitChangelistDialog2" timestamp="1585334735824">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="372" y="11" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1585334735824" />
     <state x="644" y="308" width="272" height="218" key="Github.ShareDialog" timestamp="1585334712364">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -175,10 +210,10 @@
     <state width="1397" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1440.870@1920.0.1440.870" timestamp="1581523188869" />
     <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1536.834@1920.0.1536.834" timestamp="1581425098740" />
     <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1585332785034" />
-    <state x="270" y="59" key="SettingsEditor" timestamp="1585334662542">
+    <state x="270" y="59" key="SettingsEditor" timestamp="1585334829542">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1585334662542" />
+    <state x="270" y="59" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1585334829542" />
     <state x="361" y="150" key="Vcs.Push.Dialog.v2" timestamp="1585334566808">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
