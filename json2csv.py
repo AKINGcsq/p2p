@@ -9,7 +9,6 @@ c = open('E:\\GitHub-respositories\\python-spider\\info.csv', 'w', encoding='utf
 csv_writer = csv.writer(c)
 
 for each in s:
-
     x = json.loads(each)
     temp = []
     for item in x:
@@ -19,4 +18,4 @@ for each in s:
             temp += x[item]
     csv_writer.writerow(temp)
 
-c.close()
+c.close() 
